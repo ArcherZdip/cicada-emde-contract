@@ -1,0 +1,24 @@
+{
+  "name": "xxbe/cicada-emde-contract",
+  "description": "cicada-emde interface contract files.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "zhanglingyu",
+      "email": "archerzdip@yeah.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xxbe\\CicadaEmdeContract\\": "src/",
+      "Tests\\": "Test/"
+    }
+  }
+}
