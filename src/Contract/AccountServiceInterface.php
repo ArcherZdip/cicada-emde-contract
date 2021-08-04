@@ -11,7 +11,7 @@ interface AccountServiceInterface
      * @param array $columns
      * @param bool $isDel
      * @return array
-     * @author zhanglingyu@tal.com
+     * @author ZHANGLINGYU
      */
     public function findOne(array $where = [], array $columns = ['*'], bool $isDel = false): array;
 
@@ -36,7 +36,7 @@ interface AccountServiceInterface
      * @param int $perPage
      * @param bool $isDel
      * @return array
-     * @author zhanglingyu@tal.com
+     * @author ZHANGLINGYU
      */
     public function getPaginate(array $where = [], array $columns = ['*'], int $initialId = 0, int $perPage = 100, bool $isDel = false): array;
 
