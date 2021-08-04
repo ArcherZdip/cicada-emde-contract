@@ -1,9 +1,19 @@
 # readme
 
 ## 安装说明
+### 配置composer.json
+```
+"repositories": [
+    {
+        "type":"git",
+        "url":"git@git.100tal.com:jituan_xinxi_be/cicada-emde-contract.git"
+    }
+]
+```
+
 ### 安装xxbe/cicada-emde-contract
 ```
-composer require xxbe/cicada-emde-contract:dev-master
+composer require xxbe/cicada-emde-contract
 ```
 
 ## 引用
