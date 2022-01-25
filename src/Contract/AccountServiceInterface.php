@@ -54,6 +54,19 @@ interface AccountServiceInterface
     public function search(string $q, int $size = 5, int $page = 1, bool $active = true);
 
     /**
+     * search osr account from es.
+     *
+     * @param string $q
+     * @param int $size
+     * @param int $page
+     * @param bool $active
+     *
+     * @return mixed
+     * @author ZHANGLINGYU
+     */
+    public function searchOSR(string $q, int $size = 5, int $page = 1, bool $active = true);
+
+    /**
      * 通过工号获取员工详情
      *
      * @param array $workcodes
