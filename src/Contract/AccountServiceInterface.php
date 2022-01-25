@@ -60,11 +60,12 @@ interface AccountServiceInterface
      * @param int $size
      * @param int $page
      * @param bool $active
+     * @param string $class
      *
      * @return mixed
      * @author ZHANGLINGYU
      */
-    public function searchOSR(string $q, int $size = 5, int $page = 1, bool $active = true);
+    public function searchClass(string $q, int $size = 5, int $page = 1, bool $active = true, string $class = 'OSR');
 
     /**
      * 通过工号获取员工详情
