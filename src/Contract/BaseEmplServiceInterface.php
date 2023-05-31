@@ -18,4 +18,6 @@ interface BaseEmplServiceInterface
      * @author ZHANGLINGYU
      */
     public function getPaginate(int $from = 1, int $pageSize = 100, array $workcodes = [], bool $active = true);
+
+    
 }
