@@ -58,6 +58,20 @@ interface YachDeptServiceInterface
     public function search(string $q, int $size = 5, int $page = 1);
 
     /**
+     * 通过搜索指定字段获取数据
+     *
+     * @param string $q
+     * @param array $fileds
+     * @param int $perPage
+     * @param int $page
+     * @param bool $active
+     * 
+     * @return mixed
+     * @author ZHANGLINGYU
+     */
+    public function searchByField(string $q, array $fields, int $perPage = 5, int $page = 1, bool $active = true);
+
+    /**
      * 根据部门ID获取部门详情
      *
      * @param array $deptIds
